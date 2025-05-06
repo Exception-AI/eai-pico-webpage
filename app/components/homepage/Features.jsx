@@ -1,5 +1,3 @@
-import ArrowLink from "~/components/ArrowLink";
-import Logo from "~/components/Logo";
 import Adjustments from "~/components/icons/Adjustments";
 import Brightness from "~/components/icons/Brightness";
 import CodeIcon from "~/components/icons/Code";
@@ -11,73 +9,74 @@ export default function Features(props) {
     <section className="features" {...props}>
       <hgroup>
         <h2>
-          A&nbsp;Superpowered <mark>HTML&nbsp;Reset</mark>
+          Superpowered <mark>AI&nbsp;Agents</mark>
         </h2>
         <p>
-          With just the right&nbsp;amount of&nbsp;everything, Pico is a great starting&nbsp;point for
-          a&nbsp;clean and&nbsp;lightweight design&nbsp;system.
+          Agents that can be directed and guided to seamlessly execute tasks, iterating until your
+          goals are achieved with precision and efficiency.
         </p>
       </hgroup>
       <div className="grid">
         <article>
           <CodeIcon />
-          <h3>Class-light and Semantic</h3>
+          <h3>Guided by Human Intuition</h3>
           <p>
-            Thriving on simplicity, Pico directly styles your HTML tags, using fewer than 10{" "}
-            <code>.classes</code> overall. It also comes with a class-less version for wild
-            HTML&nbsp;purists.
+            Zola can contact the user at any stage to clarify requirements or ask for futher
+            permission for sensitive tasks.
           </p>
-          <ArrowLink to="/docs/classless">Discover the class-less version</ArrowLink>
-        </article>
-        <article>
-          <Logo displayWordmark={false} />
-          <h3>Great Styles with Just CSS</h3>
-          <p>
-            No extra baggage needed. Pico works seamlessly without dependencies,
-            package&nbsp;managers, external files, or JavaScript, achieving elegant and
-            straightforward styles with pure HTML&nbsp;markup.
-          </p>
-          <ArrowLink to="/docs">Get started</ArrowLink>
+          {/*<ArrowLink to="/docs/classless">Discover the class-less version</ArrowLink>*/}
         </article>
         <article>
           <Expand />
-          <h3>Responsive Everything</h3>
+          <h3>Safety At Each Step</h3>
           <p>
-            Effortless elegance on every&nbsp;device. Pico natively scales font sizes and spacings
-            with screen widths, resulting in a consistent and elegant look across devices. No extra
-            classes or configuration needed.
+            Each step in our agent execution process is designed with safety in mind, from input
+            validation and ethical alignment before execution to real-time monitoring and result
+            evaluation after completion.
           </p>
-          <ArrowLink to="/docs/typography">Discover the responsive font sizes</ArrowLink>
+          {/*<ArrowLink to="/docs">Learn about safety</ArrowLink>*/}
+        </article>
+        <article>
+          <Expand />
+          <h3>24/7 Maximum Effort</h3>
+          <p>
+            Zola operates 24/7, continuously learning and adapting to user needs, moving beyond the
+            traditional prompt-and-response model to provide proactive, dynamic assistance. They
+            autonomously manage tasks, anticipate next steps, and adjust their actions in real-time
+            to optimize outcomes.
+          </p>
+          {/*<ArrowLink to="/docs/typography">Discover always on agents</ArrowLink>*/}
         </article>
         <article>
           <Brightness />
-          <h3>Light or Dark Mode</h3>
+          <h3>Advanced Reasoning</h3>
           <p>
-            Pico comes with two accessible, neutral color schemes out of the box: light and dark.
-            The best part? It automatically adapts to users' <code>prefers-color-scheme</code>, all
-            without the use of JavaScript.
+            Zola, our advanced reasoning agent, enhances prompting and safety checks by continuously
+            evaluating context and ensuring that every action aligns with ethical standards and
+            safety protocols. Leveraging tools and MCP servers, Zola not only refines its
+            decision-making process but also integrates real-time data, allowing for dynamic,
+            context-aware responses while maintaining the highest level of safety and control.
           </p>
-          <ArrowLink to="/docs/color-schemes">Learn about the color schemes</ArrowLink>
+          {/*<ArrowLink to="/docs/color-schemes">Learn about advanced reasoning</ArrowLink>*/}
         </article>
         <article>
           <Adjustments />
-          <h3>Easy Customization</h3>
+          <h3>Periodic Reporting and Insights</h3>
           <p>
-            Customize Pico with over 130 CSS&nbsp;variables, or dive deeper by using SASS. Switch
-            between 20 handcrafted color&nbsp;themes and compose with 30+ modular&nbsp;components to
-            tailor the UI to your brand's look&nbsp;and&nbsp;feel.
+            Zola generates daily reports that provide detailed insights into progress, highlight
+            potential issues, and identify areas requiring attention or improvement, ensuring
+            continuous optimization and accountability.
           </p>
-          <ArrowLink to="/docs/css-variables">Learn about the CSS variables</ArrowLink>
+          {/*<ArrowLink to="/docs/css-variables">Learn about reporting</ArrowLink>*/}
         </article>
         <article>
           <Speedtest />
           <h3>Optimized Performance</h3>
           <p>
-            Speed meets elegance. Unlike bulky and overcomplicated frameworks that demand
-            extensive&nbsp;class overrides and JavaScript, Pico keeps your HTML lean, decreases
-            memory usage by avoiding excessive CSS specificity, and reduces loaded files.
+            Optimized execution at scale is achieved through robust, redundant fallbacks that ensure
+            uninterrupted service.
           </p>
-          <ArrowLink to="/docs">Quick start</ArrowLink>
+          {/*<ArrowLink to="/docs">Optimized execution</ArrowLink>*/}
         </article>
       </div>
     </section>

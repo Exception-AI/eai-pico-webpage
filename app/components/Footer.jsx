@@ -121,7 +121,7 @@ export default forwardRef(function Footer(props, ref) {
         <section>
           <Logo displayWordmark={false} />
           <Links data={footerLinks} />
-          <BuildInfo />
+          {/*<BuildInfo />*/}
           <Resources />
         </section>
         <section>

@@ -7,9 +7,9 @@ export default function Comparison(props) {
     <section className="comparison" {...props}>
       <hgroup>
         <h2>
-          Embrace the <mark>Power&nbsp;of&nbsp;Less</mark>
+          Embrace the <mark>Power&nbsp;of&nbsp;Guided Reasoning</mark>
         </h2>
-        <p>A strong design foundation thrives on simplicity and ease of maintenance.</p>
+        <p>Strong goal focus to keep your agents on track.</p>
       </hgroup>
       <div className="grid">
         <div className="pico">

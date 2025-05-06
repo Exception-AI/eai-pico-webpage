@@ -28,8 +28,9 @@ export default function Header({
       {...props}
     >
       <div className="container">
-        <Link to="/" aria-label="Pico CSS homepage">
-          <Logo shouldAnimateLogo={true} />
+        <Link to="/" aria-label="Exception AI homepage">
+          {/*Exception AI*/}
+          {<Logo shouldAnimateLogo={true} />}
         </Link>
         <Nav shouldDisplayDocsVersion={shouldDisplayDocsVersion} />
       </div>

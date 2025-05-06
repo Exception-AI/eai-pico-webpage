@@ -2,7 +2,6 @@ import Link from "~/components/Link";
 import Check from "~/components/icons/Check";
 import GitHubIcon from "~/components/icons/GitHub";
 import ThemeToggle from "~/components/icons/ThemeToggle";
-import TwitterIcon from "~/components/icons/XTwitter";
 import { usePage } from "~/contexts/PageContext";
 import metaData from "~/data/meta";
 
@@ -54,13 +53,34 @@ export default function Nav({ shouldDisplayDocsVersion = false, ...props }) {
           </li>
         )}
         <li className="hide-before-sm">
-          <Link to="/examples" className="contrast">
-            Examples
+          {/*TODO external link*/}
+          <Link to="/zola" className="contrast">
+            Zola
+          </Link>
+        </li>
+        {/*<li className="hide-before-sm">*/}
+        {/*  <Link to="/api" className="contrast">*/}
+        {/*    API*/}
+        {/*  </Link>*/}
+        {/*</li>*/}
+        <li className="hide-before-sm">
+          <Link to="/solutions" className="contrast">
+            Solutions
+          </Link>
+        </li>
+        <li className="hide-before-sm">
+          <Link to="/pricing" className="contrast">
+            Pricing
           </Link>
         </li>
         <li {...(shouldDisplayDocsVersion && { className: "hide-before-sm" })}>
           <Link to="/docs" className="contrast">
-            Docs
+            &nbsp;Docs&nbsp;
+          </Link>
+        </li>
+        <li className="hide-before-sm">
+          <Link to="/login" className="contrast">
+            <button className="outline">Try Zola</button>
           </Link>
         </li>
       </ul>
@@ -69,14 +89,9 @@ export default function Nav({ shouldDisplayDocsVersion = false, ...props }) {
           <Link
             to="https://github.com/picocss/pico"
             className="contrast"
-            aria-label="GitHub repository"
+            aria-label="Login to Exception AI"
           >
             <GitHubIcon />
-          </Link>
-        </li>
-        <li>
-          <Link to="https://x.com/picocss" className="contrast" aria-label="Twitter">
-            <TwitterIcon />
           </Link>
         </li>
         <li>

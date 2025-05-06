@@ -1,9 +1,9 @@
 {
-  "siteName": "Pico CSS",
-  "defaultTitle": "Pico CSS • Minimal CSS Framework for semantic HTML",
-  "defaultDescription": "Minimalist and lightweight starter kit that prioritizes semantic syntax, making every HTML element responsive and elegant by default.",
-  "domain": "https://picocss.com",
-  "titleSuffix": "• Pico CSS",
+  "siteName": "Exception AI",
+  "defaultTitle": "Zola • Advanced Reasoning Agents",
+  "defaultDescription": "With Zola, you can build AI agents that plan, act, and collaborate more effectively.",
+  "domain": "https://exceptionai.com",
+  "titleSuffix": "• Exception AI",
   "versions": {
     "current": "2.1.1",
     "all": [
@@ -18,14 +18,14 @@
     ]
   },
   "cdnBaseUrl": "https://cdn.jsdelivr.net/npm/@picocss/pico@2/",
-  "githubRepo": "https://github.com/picocss/pico",
+  "githubRepo": "https://github.com/Exception-AI",
   "githubFilesBaseUrl": "https://github.com/picocss/pico/blob/main/",
   "githubTreeBaseUrl": "https://github.com/picocss/pico/tree/main/",
   "documentationGithubRepo": "https://github.com/picocss/picocss.com",
   "documentationGithubFilesBaseUrl": "https://github.com/picocss/picocss.com/blob/main/",
   "documentationGithubTreeBaseUrl": "https://github.com/picocss/picocss.com/tree/main/",
-  "twitterUrl": "https://x.com/picocss",
-  "twitterHandle": "@picocss",
+  "twitterUrl": "https://x.com/ExceptionAIInc",
+  "twitterHandle": "@ExceptionAIInc",
   "npmUrl": "https://www.npmjs.com/package/@picocss/pico",
   "jsDelivrUrl": "https://www.jsdelivr.com/package/npm/@picocss/pico"
 }
