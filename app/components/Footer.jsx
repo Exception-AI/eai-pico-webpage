@@ -2,12 +2,10 @@ import { forwardRef } from "react";
 import Link from "~/components/Link";
 import Logo from "~/components/Logo";
 import GitHubIcon from "~/components/icons/GitHub";
-import NpmIcon from "~/components/icons/Npm";
 import TwitterIcon from "~/components/icons/XTwitter";
 import { useNavigation } from "~/contexts/NavigationContext";
 import footerLinks from "~/data/footer";
 import metaData from "~/data/meta";
-import JsdelivrIcon from "./icons/Jsdelivr";
 
 // Links
 const Links = ({ data, ...props }) => {
@@ -57,7 +55,7 @@ const BuildInfo = (props) => {
 
 // Resources
 const Resources = (props) => {
-  const { githubRepo, twitterUrl, npmUrl, jsDelivrUrl } = metaData;
+  const { githubRepo, twitterUrl } = metaData;
   return (
     <ul className="resources" {...props}>
       <li>
@@ -70,16 +68,16 @@ const Resources = (props) => {
           <TwitterIcon />
         </Link>
       </li>
-      <li>
-        <Link to={jsDelivrUrl} className="contrast" title="jsDelivr">
-          <JsdelivrIcon />
-        </Link>
-      </li>
-      <li>
-        <Link to={npmUrl} className="contrast" title="NPM">
-          <NpmIcon />
-        </Link>
-      </li>
+      {/*<li>*/}
+      {/*  <Link to={jsDelivrUrl} className="contrast" title="jsDelivr">*/}
+      {/*    <JsdelivrIcon />*/}
+      {/*  </Link>*/}
+      {/*</li>*/}
+      {/*<li>*/}
+      {/*  <Link to={npmUrl} className="contrast" title="NPM">*/}
+      {/*    <NpmIcon />*/}
+      {/*  </Link>*/}
+      {/*</li>*/}
     </ul>
   );
 };
@@ -119,14 +117,16 @@ export default forwardRef(function Footer(props, ref) {
     <footer {...props} ref={ref}>
       <div className="container">
         <section>
-          <Logo displayWordmark={false} />
+          <h6>
+            <Logo displayWordmark={false} />
+          </h6>
           <Links data={footerLinks} />
           {/*<BuildInfo />*/}
           <Resources />
         </section>
-        <section>
-          <LicensesAndVersion />
-        </section>
+        {/*<section>*/}
+        {/*  <LicensesAndVersion />*/}
+        {/*</section>*/}
       </div>
     </footer>
   );

@@ -3,7 +3,6 @@
     "category": "About",
     "links": [
       { "label": "What’s new?", "url": "/docs/v2" },
-      { "label": "Brand", "url": "/docs/brand" },
       { "label": "Mission", "url": "/docs/mission" },
       { "label": "Usage scenarios", "url": "/docs/usage-scenarios" }
     ]
@@ -11,18 +10,46 @@
   {
     "category": "Docs",
     "links": [
-      { "label": "Quick start", "url": "/docs" },
-      { "label": "Version picker", "url": "/docs/version-picker" },
-      { "label": "Class-less version", "url": "/docs/classless" },
-      { "label": "Form elements", "url": "/docs/forms" }
+      { "label": "Quick start", "url": "/docs" }
     ]
   },
   {
-    "category": "Community",
+    "category": "Commitments",
     "links": [
-      { "label": "Issues", "url": "https://github.com/picocss/pico/issues" },
-      { "label": "Discussions", "url": "https://github.com/picocss/pico/discussions" },
-      { "label": "Help", "url": "https://github.com/picocss/pico/discussions/categories/help" }
+      { "label": "Transparency", "url": "/docs/v2" },
+      { "label": "Safety", "url": "/docs/mission" },
+      { "label": "Security and Compliance", "url": "/docs/usage-scenarios" }
+    ]
+  },
+  {
+    "category": "Solutions",
+    "links": [
+      { "label": "AI Agents", "url": "/docs/v2" },
+      { "label": "Coding", "url": "/docs/mission" }
+    ]
+  },
+  {
+    "category": "Learn",
+    "links": [
+      { "label": "Tutorials", "url": "/docs/v2" },
+      { "label": "Blog", "url": "/docs/mission" },
+      { "label": "Customer Stories", "url": "/docs/usage-scenarios" }
+    ]
+  },
+  {
+    "category": "Help",
+    "links": [
+      { "label": "Status Dashboard", "url": "/docs/v2" },
+      { "label": "Availability", "url": "/docs/mission" },
+      { "label": "Support Center", "url": "/docs/usage-scenarios" }
+    ]
+  },
+  {
+    "category": "Terms and Conditions",
+    "links": [
+      { "label": "Privacy Policy", "url": "/docs/v2" },
+      { "label": "Terms of Service", "url": "/docs/mission" },
+      { "label": "Usage Policy", "url": "/docs/usage-scenarios" }
     ]
   },
   {

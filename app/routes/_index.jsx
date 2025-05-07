@@ -1,6 +1,5 @@
 import Header from "~/components/Header";
 import SkipToContent from "~/components/SkipToContent";
-import Comparison from "~/components/homepage/Comparison";
 import Features from "~/components/homepage/Features";
 import Hero from "~/components/homepage/Hero";
 import { useNavigation } from "~/contexts/NavigationContext";
@@ -32,7 +31,7 @@ export default function Homepage() {
         <Hero />
         {/*<Stats />*/}
         <Features />
-        <Comparison />
+        {/*<Comparison />*/}
       </main>
     </>
   );
