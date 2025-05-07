@@ -1,8 +1,8 @@
 {
   "name": "@picocss/picocss.com",
   "version": "0.0.1",
-  "author": "Lucas Larroche",
-  "homepage": "https://picocss.com",
+  "author": "Dylan Scott-Dawkins",
+  "homepage": "https://exceptionai.com",
   "private": true,
   "sideEffects": false,
   "scripts": {
@@ -32,9 +32,9 @@
     "prebuild:build-css": "echo 'Compile'",
     "prebuild:autoprefix": "echo 'Autoprefix'",
     "prebuild:minify": "echo 'Minify'",
-    "prebuild:code-snippets": "Generate code snippets'",
-    "prebuild:fetch-stats": "Fetch stats'",
-    "prebuild:v1-documentation": "Build v1 documentation'"
+    "prebuild:code-snippets": "echo 'Generate code snippets'",
+    "prebuild:fetch-stats": "echo 'Fetch stats'",
+    "prebuild:v1-documentation": "echo 'Build v1 documentation'"
   },
   "dependencies": {
     "@fontsource/figtree": "^5.2.5",
