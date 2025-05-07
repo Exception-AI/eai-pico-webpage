@@ -26,5 +26,5 @@ EXPOSE 8788
 RUN yarn
 
 # Start the application using your 'start' script (or dev script for development)
-CMD ["yarn", "start"]
+CMD ["yarn", "dev"]
 
