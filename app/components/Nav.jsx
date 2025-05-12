@@ -52,36 +52,40 @@ export default function Nav({ shouldDisplayDocsVersion = false, ...props }) {
             </details>
           </li>
         )}
-        <li className="hide-before-sm">
-          {/*TODO external link*/}
-          <Link to="/zola" className="contrast">
-            Zola
-          </Link>
-        </li>
+        {/*<li className="hide-before-sm">*/}
+        {/*  /!*TODO external link*!/*/}
+        {/*  <Link to="/zola" className="contrast">*/}
+        {/*    Zola*/}
+        {/*  </Link>*/}
+        {/*</li>*/}
         {/*<li className="hide-before-sm">*/}
         {/*  <Link to="/api" className="contrast">*/}
         {/*    API*/}
         {/*  </Link>*/}
         {/*</li>*/}
-        <li className="hide-before-sm">
-          <Link to="/solutions" className="contrast">
-            Solutions
-          </Link>
-        </li>
+        {/*<li className="hide-before-sm">*/}
+        {/*  <Link to="/solutions" className="contrast">*/}
+        {/*    Solutions*/}
+        {/*  </Link>*/}
+        {/*</li>*/}
         <li className="hide-before-sm">
           <Link to="/pricing" className="contrast">
             Pricing
           </Link>
         </li>
-        <li {...(shouldDisplayDocsVersion && { className: "hide-before-sm" })}>
-          <Link to="/docs" className="contrast">
-            &nbsp;Docs&nbsp;
-          </Link>
-        </li>
+        {/*<li {...(shouldDisplayDocsVersion && { className: "hide-before-sm" })}>*/}
+        {/*  <Link to="/docs" className="contrast">*/}
+        {/*    &nbsp;Docs&nbsp;*/}
+        {/*  </Link>*/}
+        {/*</li>*/}
         <li className="hide-before-sm">
           <Link to="/login" className="contrast">
             <button className="outline">Try Zola</button>
           </Link>
+
+          {/*<Link to="/login" className="contrast">*/}
+          {/*  <button className="outline">Try Zola</button>*/}
+          {/*</Link>*/}
         </li>
       </ul>
       <ul className="icons">

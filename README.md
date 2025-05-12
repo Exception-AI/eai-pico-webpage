@@ -1,6 +1,6 @@
-# Pico CSS Documentation
+# Exception AI Documentation
 
-Pico CSS uses [Remix](https://remix.run) for its documentation.
+Exception AI uses [Remix](https://remix.run) for its documentation.
 
 To run the project locally, first install the dependencies:
 

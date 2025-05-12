@@ -118,7 +118,7 @@ export default forwardRef(function Footer(props, ref) {
       <div className="container">
         <section>
           <h6>
-            <Logo displayWordmark={false} />
+            <Logo displayWordmark={true} />
           </h6>
           <Links data={footerLinks} />
           {/*<BuildInfo />*/}
