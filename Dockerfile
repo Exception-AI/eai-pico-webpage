@@ -5,7 +5,7 @@ FROM node:23.10-slim
 WORKDIR /app
 
 # Install rsync (required for your build process)
-RUN apt-get update && apt-get install -y rsync libatomic1
+RUN apt-get update && apt-get install -y rsync libatomic1 curl wget
 
 # Copy the package.json and package-lock.json (if available) to the container
 COPY package.json package-lock.json* ./
