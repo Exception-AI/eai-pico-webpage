@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useNavigate } from "@remix-run/react";
+import { useContext, useEffect, useState } from "react";
+import { AuthContext } from "~/contexts/AuthContext";
 
 export default function Hero(props) {
   const sendCode = async (email) => {
@@ -31,18 +33,27 @@ export default function Hero(props) {
     );
     console.log(res);
     if (res.ok) {
-      //login(email);
-      //navigate('/dashboard');
+      login(email);
+      //TODO include auth context and login
+      navigate("/");
     } else {
       alert("Invalid code.");
     }
   };
 
+  const { login, isAuthenticated } = useContext(AuthContext);
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [code, setCode] = useState("");
   const [step, setStep] = useState("email"); // or 'code'
-  //
-  // const { login, isAuthenticated } = useContext(AuthContext);
+
+  useEffect(() => {
+    const emailStorage = localStorage.getItem("email");
+    setEmail(emailStorage);
+    if (isAuthenticated) {
+      navigate("/");
+    }
+  }, [isAuthenticated, navigate]);
 
   return (
     <section className="demo" {...props}>
